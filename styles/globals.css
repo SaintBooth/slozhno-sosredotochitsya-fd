@@ -40,3 +40,13 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+.page {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.header {
+  display: grid;
+}

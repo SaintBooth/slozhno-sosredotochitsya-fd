@@ -1,5 +1,119 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+:root {
+  --font-family: "IBM Plex Mono", sans-serif;
+  --color-bg: #000028;
+  --color-heading: #DB00FF;
+  --color-text: #F1B2CE;
+  --accent-color: #FF0070;
+  --background-image: url("../images/cover-image-dark.png");
+}
+
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
+
+.decorated-zone::before {
+  position: absolute;
+  content: '';
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color)
+
+}
+
+.decorated-zone::after {
+  position: absolute;
+  content: '';
+  bottom: 10px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+
+}
+
+.header__rec-indicator {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 1.5625em;
+  text-align: center;
+
+}
+
+.header__rec-indicator::after {
+  display: inline-block;
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: var(--accent-color);
+  background-color: var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+.header {
+  display: grid;
+  min-block-size: 100vh;
+  padding: 10px;
+  background-image: var(--background-image);
+  background-position: center;
+  background-size: cover;
+}
+
+.header__theme-menu {
+  justify-items: end;
+  padding: 65px 0 20px;
+}
+
+.header__theme-menu-list {
+  display: grid;
+  gap: 11.5px;
+}
+
+.header__theme-menu-button {
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 1.125em;
+  text-align: center;
+  color: var(--accent-color);
+  background: transparent;
+  border: none;
+  padding: 1.5px 13px;
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--accent-color);
+
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 116px;
+  line-height: 83%;
+  color: var(--color-heading);
+  text-shadow: 4px 4px 0 var(--accent-color);
+
+}
+
+.header__description {
+  height: max-content;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  background-color: var(--accent-color);
+  color: var(--color-bg);
+}
+
+
