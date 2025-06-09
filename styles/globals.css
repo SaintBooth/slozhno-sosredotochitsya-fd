@@ -42,11 +42,7 @@ a {
 }
 
 .page {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: var(--font-family);
   background-color: var(--color-bg);
   color: var(--color-text);
-}
-
-.header {
-  display: grid;
 }
