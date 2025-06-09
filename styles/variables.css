@@ -1,6 +1,7 @@
 :root {
   --font-family: "IBM Plex Mono", sans-serif;
-  --font-size-base: 18px;
+  --font-size-base: 1.125em;
+  --font-size-big: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --color-bg: #000028;
