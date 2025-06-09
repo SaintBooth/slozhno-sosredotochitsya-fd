@@ -1,28 +1,16 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  --color-bg: #FFF1F7;
-  --color-primary-title: #FFC2E6;
+  --color-bg: #fff1f7;
+  --color-primary-title: #ffc2e6;
   --color-text: #353430;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --color-decor: #353430;
+  --color-border: 53, 52, 48;
+  --color-section-title: #353430;
   --background-image: url("../images/cover-image-light.png");
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
 .theme-light .header__rec-indicator {
   display: none;
-}
-
-.theme-light .header__theme-menu-item > li {
-  color: var(--color-text);
 }
 
 .theme-light .header__theme-menu-button {
