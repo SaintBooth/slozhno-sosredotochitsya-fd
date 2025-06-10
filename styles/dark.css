@@ -8,3 +8,11 @@
   --color-section-title: #ff0070;
   --background-image: url("../images/cover-image-dark.png");
 }
+
+.theme-dark .header__theme-menu-button {
+  color: var(--accent-color);
+}
+
+.theme-dark .header__rec-indicator {
+  display: block;
+}
