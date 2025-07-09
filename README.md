@@ -34,10 +34,14 @@
 slozhno-sosredotochitsya-fd/
 ├── fonts/             # Шрифты
 ├── images/            # Изображения
+├── scripts/           # Скрипты
+│   ├── script.js
 ├── styles/            # Стили (включая темовые файлы)
 │   ├── dark.css
 │   ├── light.css
-│   └── global.css
+│   ├── global.css
+│   ├── style.css
+│   └── variables.css
 ├── index.html         # Главная HTML-страница
 ```
 ## ✅ Чек-лист соответствия требованиям
