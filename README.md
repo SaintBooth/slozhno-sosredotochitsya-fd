@@ -1,4 +1,5 @@
-[Ссылка на репозиторий](https://github.com/SaintBooth/slozhno-sosredotochitsya-fd) | [Ссылка на страницу](https://saintbooth.github.io/slozhno-sosredotochitsya-fd/)
+<a href="https://github.com/SaintBooth/slozhno-sosredotochitsya-fd" target="_blank" rel="noopener noreferrer">Ссылка на репозиторий</a> | <a href="https://saintbooth.github.io/slozhno-sosredotochitsya-fd/" target="_blank" rel="noopener noreferrer">Ссылка на страницу</a>
+
 
 Учебный проект выполнен в рамках обучения на Full-stack разработчика. 
 
