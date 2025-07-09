@@ -31,7 +31,6 @@
 
 ## 🗂 Структура проекта
 
-\`\`\`
 slozhno-sosredotochitsya-fd/
 ├── fonts/             # Шрифты
 ├── images/            # Изображения
@@ -40,7 +39,6 @@ slozhno-sosredotochitsya-fd/
 │   ├── light.css
 │   └── global.css
 ├── index.html         # Главная HTML-страница
-\`\`\`
 
 ## ✅ Чек-лист соответствия требованиям
 
